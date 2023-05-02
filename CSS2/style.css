@@ -1,0 +1,32 @@
+h1{
+    font-size: 80px;
+    color: blue;
+}
+
+a[href="www.google.com"]{
+    color: blueviolet;
+}
+/*Selector por elemento*/
+a{
+    color: black;
+}
+/*Selector por elemento atributo**/
+img[src="https://blog.plazavea.com.pe/wp-content/uploads/2022/01/Ceviche-1200x675.jpg"]{
+    width: 200px;
+}
+p{
+    font-size: xx-large;
+}
+/* Selector de elemento hijo */
+div > p{
+    font-size: small;
+}
+/*Selector por id*/
+
+#parrafoAzul{
+    color: blue;
+}
+/*Selector por clase*/
+.salmon{
+    background-color: salmon;
+}
